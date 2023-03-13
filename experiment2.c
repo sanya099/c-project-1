@@ -1,3 +1,4 @@
+/*
 #include <stdio.h>
 int main()
 {
@@ -9,4 +10,16 @@ int main()
   }
   printf("Factorial of %d is %d",n,fact);
   return 0;
+}
+*/
+#include <stdio.h>
+void hello();
+int main()
+{
+  hello();
+  return 0;
+}
+void hello()
+{
+  printf("Hello!");
 }
