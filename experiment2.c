@@ -17,6 +17,8 @@ void hello();
 int main()
 {
   hello();
+  printf("This prints hoiiii");
+  hello();
   return 0;
 }
 void hello()
